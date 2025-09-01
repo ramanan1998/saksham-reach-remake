@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'saksham-green': 'hsl(var(--saksham-green))',
+				'saksham-green-light': 'hsl(var(--saksham-green-light))',
+				'saksham-yellow': 'hsl(var(--saksham-yellow))',
+				'saksham-yellow-dark': 'hsl(var(--saksham-yellow-dark))',
+				'saksham-gray-light': 'hsl(var(--saksham-gray-light))',
+				'saksham-gray-medium': 'hsl(var(--saksham-gray-medium))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +73,11 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'large': 'var(--shadow-large)',
 			},
 			keyframes: {
 				'accordion-down': {
