@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindAnimate from "tailwindcss-animate";
 
 export default {
 	darkMode: ["class"],
@@ -12,7 +13,7 @@ export default {
 	theme: {
 		container: {
 			center: true,
-			padding: '2rem',
+			padding: '8rem',
 			screens: {
 				'2xl': '1400px'
 			}
@@ -58,6 +59,14 @@ export default {
 				'saksham-yellow-dark': 'hsl(var(--saksham-yellow-dark))',
 				'saksham-gray-light': 'hsl(var(--saksham-gray-light))',
 				'saksham-gray-medium': 'hsl(var(--saksham-gray-medium))',
+				'saksham-blue': "#007DFE",
+				"saksham-light-blue": "#E4ECF7",
+				"saksham-dark-blue": "#407BFF",
+				"saksham-primary-black": "#0D1829",
+				"saksham-smoke-white": "#F7F7FB",
+				"saksham-primary-orange": "#E16F06",
+				"saksham-primary-pink": "#F6435F",
+				'orange-gradient-color': "linear-gradient(89deg, #FF9625 0%, #FF405E 100%)",
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -103,5 +112,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [tailwindAnimate],
 } satisfies Config;

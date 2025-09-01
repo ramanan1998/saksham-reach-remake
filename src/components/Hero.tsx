@@ -5,8 +5,8 @@ import heroImage from '@/assets/hero-image.jpg';
 const Hero = () => {
   return (
     <section id="home" className="py-20 bg-gradient-to-br from-background to-secondary">
-      <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-12 items-center container">
           {/* Content */}
           <div className="space-y-8 animate-slide-up">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">

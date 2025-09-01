@@ -1,6 +1,5 @@
-import React from 'react';
 import { Button } from './ui/button';
-import { Heart, Users, Shield, Star } from 'lucide-react';
+import { Heart, Users, Shield, Star, Globe } from 'lucide-react';
 
 const About = () => {
   const values = [
@@ -23,12 +22,17 @@ const About = () => {
       icon: Star,
       title: "Excellence",
       description: "We strive for excellence in our programs and services to maximize impact."
+    },
+    {
+      icon: Globe,
+      title: "Transparency",
+      description: "We operate with complete transparency in our finances and decision-making processes."
     }
   ];
 
   return (
     <section id="about" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+      <div className="mx-auto">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             About <span className="gradient-text">SAKSHAM</span>
@@ -36,7 +40,7 @@ const About = () => {
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20 container">
           {/* Mission */}
           <div className="space-y-8 animate-slide-up">
             <div>
@@ -76,7 +80,7 @@ const About = () => {
           <h3 className="text-3xl font-bold text-center text-foreground mb-12">
             Our Core Values
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 px-20">
             {values.map((value, index) => (
               <div
                 key={index}
