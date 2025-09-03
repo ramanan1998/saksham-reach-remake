@@ -22,16 +22,13 @@ const Header = () => {
             <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">
               Home
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-medium">
-              About Us
-            </a>
-            <a href="#projects" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="" className="text-foreground hover:text-primary transition-colors font-medium">
               Projects
             </a>
-            <a href="#team" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="" className="text-foreground hover:text-primary transition-colors font-medium">
               Our Team
             </a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="" className="text-foreground hover:text-primary transition-colors font-medium">
               Contact
             </a>
           </nav>

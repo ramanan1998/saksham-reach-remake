@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20 container">
-          {/* Mission */}
+
           <div className="space-y-8 animate-slide-up">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
@@ -50,29 +50,51 @@ const About = () => {
                 disabilities in the mainstream of our nation. SAKSHAM believes that the 
                 disabled people are not burden on the society but assets of the nation.
               </p>
+              <br />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Our mission is to create an environment where people with disabilities have equal opportunities to learn, grow, and contribute to society. We work tirelessly to remove barriers and create inclusive spaces where everyone can thrive.
+              </p>  
+              <br />
+              <div className="bg-primary/5 p-8 rounded-2xl border-l-4 border-primary animate-fade-in">
+                <blockquote className="text-xl italic text-foreground mb-4">
+                  "All our services are rendered without any discrimination on caste, 
+                  creed, religion or gender."
+                </blockquote>
+              </div>
             </div>
+          </div>
 
+          <div className='rounded-xl overflow-hidden animate-slide-up'>
+            <img className='h-full w-full object-cover' src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="img" />
+          </div>
+          
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20 container">
+
+          <div className='rounded-xl overflow-hidden animate-slide-up'>
+            <img className='h-full w-full object-cover' src="https://images.pexels.com/photos/3810762/pexels-photo-3810762.jpeg" alt="img" />
+          </div>
+
+          <div className="space-y-8 animate-slide-up">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SAKSHAM firmly believes in the unique potential of every individual. 
-                Dedicated to empowering specially abled people, SAKSHAM strives to 
-                integrate them to national mainstream, enabling them to contribute to 
-                their families and the growth of humanity.
+                SAKSHAM firmly believes in the unique potential of every individual. Dedicated to empowering specially abled people, SAKSHAM strives to integrate them to national mainstream, enabling them to contribute to their families and the growth of humanity.
               </p>
+              <br />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                We envision a society where disability is not viewed as a limitation but as a different way of experiencing the world. A society that values diversity and recognizes the contributions of all its members.
+              </p>  
+              <br />
+              <div className="bg-primary/5 p-8 rounded-2xl border-l-4 border-primary animate-fade-in">
+                <blockquote className="text-xl italic text-foreground mb-4">
+                  "To setup a career path for people with disabilities from the underprivileged and disadvantaged sections of society."
+                </blockquote>
+              </div>
             </div>
           </div>
-
-          {/* Quote */}
-          <div className="bg-primary/5 p-8 rounded-2xl border-l-4 border-primary animate-fade-in">
-            <blockquote className="text-xl italic text-foreground mb-4">
-              "All our services are rendered without any discrimination on caste, 
-              creed, religion or gender."
-            </blockquote>
-            <Button variant="outline" size="lg">
-              Learn More About Us
-            </Button>
-          </div>
+          
         </div>
 
         {/* Core Values */}
