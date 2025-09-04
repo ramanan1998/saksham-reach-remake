@@ -1,7 +1,28 @@
 import React from 'react';
 import { Button } from './ui/button';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
+  const routes = [
+    {
+      name: "Home",
+      route: "/"
+    },
+    {
+      name: "Projects",
+      route: "/projects"
+    },
+    {
+      name: "Our Team",
+      route: "/our-team"
+    },
+    {
+      name: "Contact",
+      route: "/contact"
+    },
+  ];
+
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="mx-auto px-4 py-4">
@@ -19,6 +40,17 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+            {routes.map(item => (
+              <NavLink 
+                className={({ isActive }) => isActive ? "text-green-700 transition-colors font-medium" : "text-foreground hover:text-primary transition-colors font-medium" }
+                key={item.route} 
+                to={item.route}
+              >
+                {item.name}
+              </NavLink>
+            ))}
+          </nav>
+          {/* <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">
               Home
             </a>
@@ -31,7 +63,7 @@ const Header = () => {
             <a href="" className="text-foreground hover:text-primary transition-colors font-medium">
               Contact
             </a>
-          </nav>
+          </nav> */}
 
           {/* Donate Button */}
           <Button variant="donate" size="lg">
