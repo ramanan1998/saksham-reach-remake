@@ -102,7 +102,7 @@ const About = () => {
           <h3 className="text-3xl font-bold text-center text-foreground mb-12">
             Our Core Values
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 px-20">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 px-4 md:px-20">
             {values.map((value, index) => (
               <div
                 key={index}
