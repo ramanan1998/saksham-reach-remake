@@ -1,12 +1,27 @@
 import { Card, CardContent } from "@/components/ui/card"
 
 const disabilities = [
-  { code: "VI", label: "Visual Impairment" },
+  { code: "BL", label: "Blindness" },
+  { code: "LV", label: "Low Vision" },
+  { code: "LCP", label: "Leprosy Cured Persons" },
   { code: "HI", label: "Hearing Impairment" },
+  { code: "LD", label: "Locomotor Disability" },
+  { code: "DW", label: "Dwarfism" },
+  { code: "ID", label: "Intellectual Disability" },
+  { code: "MI", label: "Mental Illness" },
   { code: "ASD", label: "Autism Spectrum Disorder" },
   { code: "CP", label: "Cerebral Palsy" },
-  { code: "ID", label: "Intellectual Disability" },
-  { code: "LD", label: "Learning Disability" },
+  { code: "MD", label: "Muscular Dystrophy" },
+  { code: "CNC", label: "Chronic Neurological Conditions" },
+  { code: "SLD", label: "Specific Learning Disabilities" },
+  { code: "MS", label: "Multiple Sclerosis" },
+  { code: "SL", label: "Speech and Language Disability" },
+  { code: "TH", label: "Thalassemia" },
+  { code: "HE", label: "Hemophilia" },
+  { code: "SCD", label: "Sickle Cell Disease" },
+  { code: "MDI", label: "Multiple Disabilities (including deaf-blindness)" },
+  { code: "AAV", label: "Acid Attack Victims" },
+  { code: "PD", label: "Parkinson's Disease" }
 ]
 
 export default function WhoWeServe() {

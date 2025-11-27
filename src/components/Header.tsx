@@ -1,6 +1,5 @@
-import React from 'react';
 import { Button } from './ui/button';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { NavMobile } from './NavMobile';
 
 const Header = () => {
@@ -17,6 +16,10 @@ const Header = () => {
     {
       name: "Our Team",
       route: "/our-team"
+    },
+    {
+      name: "Join Us",
+      route: "/join-us"
     },
     {
       name: "Contact",
@@ -67,10 +70,11 @@ const Header = () => {
           </nav> */}
 
           {/* Donate Button */}
-          <Button variant="donate" size="lg">
-            Donate Now
-          </Button>
-
+          <Link to="/donate">
+            <Button variant="donate" size="lg">
+              Donate Now
+            </Button>
+          </Link>
           <NavMobile routes={routes}/>
         </div>
       </div>

@@ -46,19 +46,27 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SAKSHAM was established with an aim to bring all the persons with various 
-                disabilities in the mainstream of our nation. SAKSHAM believes that the 
-                disabled people are not burden on the society but assets of the nation.
+                Saksham is committed to creating an environment where persons with disabilities (divyangjan) can experience inclusiveness in various fields of life—social, practical, economic, political, cultural, and spiritual etc. It envisions a society where they can live with self‐reliance, self‐respect and dignity while actively contributing to the rebuilding of the nation.
               </p>
-              <br />
+              {/* <br />
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Our mission is to create an environment where people with disabilities have equal opportunities to learn, grow, and contribute to society. We work tirelessly to remove barriers and create inclusive spaces where everyone can thrive.
-              </p>  
+              </p>   */}
               <br />
               <div className="bg-primary/5 p-8 rounded-2xl border-l-4 border-primary animate-fade-in">
                 <blockquote className="text-xl italic text-foreground mb-4">
-                  "All our services are rendered without any discrimination on caste, 
-                  creed, religion or gender."
+                  <span className='font-semibold'>Kalyan Mantra</span>
+                  <br />
+                  Om Sarve Bhavantu Sukhinah
+                  <br />
+                  Sarve Santu Niraamayaah
+                  <br />
+                  Sarve Bhadraani Pashyantu
+                  <br />
+                  Maa Kashchit Duhkha Bhaag Bhavet
+                  <br />
+                  Om Shanti Shanti Shanti
+                  
                 </blockquote>
               </div>
             </div>
@@ -80,18 +88,15 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SAKSHAM firmly believes in the unique potential of every individual. Dedicated to empowering specially abled people, SAKSHAM strives to integrate them to national mainstream, enabling them to contribute to their families and the growth of humanity.
+                Saksham firmly believes that every human being is endowed with divine qualities and capabilities. Similarly Saksham also holds the strong conviction that disability is an inherent part of nature’s diversity. The full participation and inclusion of persons with disabilities (Divyangjan) will not only benefit them but will also greatly serve society and the nation as a whole.
               </p>
-              <br />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                We envision a society where disability is not viewed as a limitation but as a different way of experiencing the world. A society that values diversity and recognizes the contributions of all its members.
-              </p>  
-              <br />
+
+              {/* <br />
               <div className="bg-primary/5 p-8 rounded-2xl border-l-4 border-primary animate-fade-in">
                 <blockquote className="text-xl italic text-foreground mb-4">
                   "To setup a career path for people with disabilities from the underprivileged and disadvantaged sections of society."
                 </blockquote>
-              </div>
+              </div> */}
             </div>
           </div>
           

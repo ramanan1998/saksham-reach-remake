@@ -121,13 +121,13 @@ export default function ContactForm() {
                         name="name"
                         rules={{ required: "Name is required" }}
                         render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Name</FormLabel>
-                            <FormControl>
-                            <Input placeholder="Enter your name" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                        </FormItem>
+                            <FormItem>
+                                <FormLabel>Name</FormLabel>
+                                <FormControl>
+                                <Input placeholder="Enter your name" {...field} />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
                         )}
                     />
 

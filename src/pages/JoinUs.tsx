@@ -1,16 +1,14 @@
 import DonationCTA from "@/components/DonationCTA";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import LeadershipTeam from "@/components/our-team/LeadershipTeam";
 import TeamHeader from "@/components/our-team/TeamHeader";
 
-const OurTeam = () => {
+const JoinUs = () => {
   return (
     <div className="min-h-screen">
       <Header />
       <main>
         <TeamHeader/>
-        <LeadershipTeam/>
       </main>
       <DonationCTA/>
       <Footer/>
@@ -18,4 +16,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default JoinUs;

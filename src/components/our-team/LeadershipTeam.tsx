@@ -52,9 +52,9 @@ function LeadershipTeam() {
         <div className="mx-auto container">
             {/* Project Title */}
             <div className="text-center mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-green-800">Leadership Team</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-green-800">Seva Team</h2>
                 <p className="mt-2 text-gray-600 text-lg">
-                    Our leadership team brings diverse expertise and a shared commitment to empowering people with disabilities.
+                    Our seva team brings diverse expertise and a shared commitment to empowering people with disabilities.
                 </p>
             </div>
 
