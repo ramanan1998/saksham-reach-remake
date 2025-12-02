@@ -9,11 +9,8 @@ export default function Footer() {
         
         {/* Left Section */}
         <div>
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-green-800 text-white flex items-center justify-center font-bold">
-              S
-            </div>
-            <h2 className="text-lg font-bold text-green-900">SAKSHAM</h2>
+          <div>
+            <img className='w-56 object-contain' src="/logo.png" alt="logo" />
           </div>
           <p className="mt-4 text-gray-600 text-sm">
             National Organisation Committed for the Welfare of Persons with Disability

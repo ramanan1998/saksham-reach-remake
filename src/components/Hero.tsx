@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from './ui/button';
 import heroImage from '@/assets/hero-image.jpg';
 
@@ -16,7 +15,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              National Organisation Committed for the Welfare of Persons with Disability
+              National Organisation Committed to the Welfare of Persons with Disabilities
             </p>
             
             <p className="text-lg text-muted-foreground max-w-xl">

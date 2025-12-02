@@ -29,10 +29,13 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="mx-auto px-4 py-4">
+      <div className="mx-auto px-4 py-1">
         <div className="flex items-center justify-between md:container">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div>
+            <img className='h-20 md:h-28 object-contain' src="/logo.png" alt="logo" />
+          </div>
+          {/* <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">S</span>
             </div>
@@ -40,7 +43,7 @@ const Header = () => {
               <h1 className="text-xl font-bold text-primary">SAKSHAM</h1>
               <p className="text-xs text-muted-foreground">Tamil Nadu</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
