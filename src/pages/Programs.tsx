@@ -53,7 +53,7 @@ const Programs = () => {
           </div>
         </section>
 
-        <div className='py-10 grid grid-cols-1 lg:grid-cols-3 gap-10 w-full lg:w-[80%] mx-auto'>
+        <div className='py-10 grid grid-cols-1 lg:grid-cols-3 gap-10 w-full px-2 lg:w-[80%] mx-auto'>
             {programList.map(item => (
                 <Card key={item.text} className="mx-auto w-full pt-0 overflow-hidden">
                     <div className='h-72'>
