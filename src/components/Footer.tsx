@@ -1,6 +1,7 @@
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -29,9 +30,10 @@ export default function Footer() {
           <ul className="mt-4 space-y-2 text-gray-600">
             <li><a href="#" className="hover:text-green-800">Home</a></li>
             <li><a href="#" className="hover:text-green-800">About Us</a></li>
-            <li><a href="#" className="hover:text-green-800">Projects</a></li>
-            <li><a href="#" className="hover:text-green-800">Our Team</a></li>
-            <li><a href="#" className="hover:text-green-800">Contact Us</a></li>
+            <li><a href="#" className="hover:text-green-800">Prakosht</a></li>
+            <li><a href="#" className="hover:text-green-800">Aayams</a></li>
+            <li><a href="#" className="hover:text-green-800">Districts</a></li>
+            <li><Link to="/contact" className="hover:text-green-800">Contact Us</Link></li>
             <li><a href="#" className="hover:text-green-800">Make a Donation</a></li>
           </ul>
         </div>

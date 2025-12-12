@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
+import { Globe, Heart, Shield, Star, Users } from "lucide-react";
 
 const disabilities = [
   { code: "BL", label: "Blindness" },
@@ -22,9 +23,11 @@ const disabilities = [
   { code: "MDI", label: "Multiple Disabilities (including deaf-blindness)" },
   { code: "AAV", label: "Acid Attack Victims" },
   { code: "PD", label: "Parkinson's Disease" }
-]
+];
+
 
 export default function WhoWeServe() {
+
     
   return (
     <section className="w-full bg-muted/30 py-12">

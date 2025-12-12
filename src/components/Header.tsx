@@ -10,8 +10,16 @@ const Header = () => {
       route: "/"
     },
     {
+      name: "About Us",
+      route: "/about-us"
+    },
+    {
       name: "Projects",
       route: "/projects"
+    },
+    {
+      name: "Programs",
+      route: "/programs"
     },
     {
       name: "Our Team",
@@ -22,7 +30,7 @@ const Header = () => {
       route: "/join-us"
     },
     {
-      name: "Contact",
+      name: "Contact Us",
       route: "/contact"
     },
   ];

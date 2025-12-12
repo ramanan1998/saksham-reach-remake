@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Stats from '@/components/Stats';
@@ -9,6 +9,7 @@ import OurProject from '@/components/OurProject';
 import ImpactOfSupport from '@/components/ImpactOfSupport';
 import Testimonials from '@/components/Testimonials';
 import DonationCTA from '@/components/DonationCTA';
+import OurCoreValues from '@/components/OurCoreValues';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <Hero />
         <Stats />
         <About />
+        <OurCoreValues/>
         <WhoWeServe/>
         <OurProject/>
         <ImpactOfSupport/>
