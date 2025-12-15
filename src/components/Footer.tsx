@@ -28,13 +28,13 @@ export default function Footer() {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Quick Links</h3>
           <ul className="mt-4 space-y-2 text-gray-600">
-            <li><a href="#" className="hover:text-green-800">Home</a></li>
-            <li><a href="#" className="hover:text-green-800">About Us</a></li>
-            <li><a href="#" className="hover:text-green-800">Prakosht</a></li>
-            <li><a href="#" className="hover:text-green-800">Aayams</a></li>
-            <li><a href="#" className="hover:text-green-800">Districts</a></li>
+            <li><Link to="/" className="hover:text-green-800">Home</Link></li>
+            <li><Link to="/about-us" className="hover:text-green-800">About Us</Link></li>
+            <li><Link to="/prakosht" className="hover:text-green-800">Prakosht</Link></li>
+            <li><Link to="/aayams" className="hover:text-green-800">Aayams</Link></li>
+            <li><Link to="/districts" className="hover:text-green-800">Districts</Link></li>
             <li><Link to="/contact" className="hover:text-green-800">Contact Us</Link></li>
-            <li><a href="#" className="hover:text-green-800">Make a Donation</a></li>
+            <li><Link to="/donate" className="hover:text-green-800">Make a Donation</Link></li>
           </ul>
         </div>
 

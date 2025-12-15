@@ -12,6 +12,9 @@ import JoinUs from "./pages/JoinUs";
 import Donate from "./pages/Donate";
 import AboutUs from "./pages/AboutUs";
 import Programs from "./pages/Programs";
+import Prakosht from "./pages/Prakosht";
+import Aayams from "./pages/Aayams";
+import Districts from "./pages/Districts";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +33,9 @@ const App = () => (
           <Route path="/join-us" element={<JoinUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/prakosht" element={<Prakosht />} />
+          <Route path="/aayams" element={<Aayams />} />
+          <Route path="/districts" element={<Districts />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
